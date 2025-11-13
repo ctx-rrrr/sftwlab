@@ -1,0 +1,17 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  overflow: hidden;
+}
+
+#phrase {
+  position: fixed;
+  left: 12px;
+  bottom: 10px;
+  color: rgba(255, 255, 255, 0.85);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 12px;
+  pointer-events: none;
+  user-select: none;
+}
