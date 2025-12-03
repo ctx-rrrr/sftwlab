@@ -15,3 +15,22 @@ html, body {
   pointer-events: none;
   user-select: none;
 }
+
+.art-button {
+  background: transparent;        /* 透明背景 */
+  border: 2px solid white;        /* 纯白边框 */
+  color: white;                   /* 文字颜色 */
+  font-family: monospace;         /* 等宽字体 */
+  font-weight: 300;               /* 轻字体 */
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s all;
+           /* 稍微增加间距，更艺术 */
+}
+
+.art-button:hover {
+  border-color: #fff;             /* 鼠标悬停时边框加亮 */
+  transform: scale(1.05);         /* 略微放大 */
+}
